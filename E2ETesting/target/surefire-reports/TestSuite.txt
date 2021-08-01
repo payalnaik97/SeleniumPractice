@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 103.472 s <<< FAILURE! - in TestSuite
+SeleniumPractice.searchProduct.searchProduct  Time elapsed: 12.172 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at SeleniumPractice.searchProduct.searchProduct(searchProduct.java:14)
+

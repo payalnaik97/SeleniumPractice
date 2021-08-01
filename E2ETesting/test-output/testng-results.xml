@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-01T09:44:19Z" name="Default suite" finished-at="2021-08-01T09:45:11Z" duration-ms="52174">
+    <groups>
+    </groups>
+    <test started-at="2021-08-01T09:44:19Z" name="Default test" finished-at="2021-08-01T09:45:11Z" duration-ms="52174">
+      <class name="SeleniumPractice.searchProduct">
+        <test-method signature="searchProduct()[pri:0, instance:SeleniumPractice.searchProduct@6d7fc27]" started-at="2021-08-01T09:44:19Z" name="searchProduct" finished-at="2021-08-01T09:45:11Z" duration-ms="52093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+      </class> <!-- SeleniumPractice.searchProduct -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
