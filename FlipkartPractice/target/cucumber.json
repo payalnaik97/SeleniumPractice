@@ -1,0 +1,374 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-27T14:37:12.534Z",
+        "line": 23,
+        "name": "Negative login scenario",
+        "description": "",
+        "id": "login-to-filpkart-application;negative-login-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 367022700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDefination.loginStep.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9677626300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User is on flipkart login page",
+            "match": {
+              "location": "com.stepDefination.loginStep.user_is_on_flipkart_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10497209700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters \"abc\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"abc123\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepDefination.loginStep.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5105474100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "com.stepDefination.loginStep.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114007900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on same Login page",
+            "match": {
+              "location": "com.stepDefination.loginStep.user_is_on_same_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-27T14:37:38.456Z",
+        "line": 24,
+        "name": "Negative login scenario",
+        "description": "",
+        "id": "login-to-filpkart-application;negative-login-scenario;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 314031000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDefination.loginStep.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17431487000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User is on flipkart login page",
+            "match": {
+              "location": "com.stepDefination.loginStep.user_is_on_flipkart_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10301664500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters \"\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"abc123\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepDefination.loginStep.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5108840000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "com.stepDefination.loginStep.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60999700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on same Login page",
+            "match": {
+              "location": "com.stepDefination.loginStep.user_is_on_same_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-27T14:38:11.690Z",
+        "line": 25,
+        "name": "Negative login scenario",
+        "description": "",
+        "id": "login-to-filpkart-application;negative-login-scenario;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 330499500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDefination.loginStep.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 55574618300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User is on flipkart login page",
+            "match": {
+              "location": "com.stepDefination.loginStep.user_is_on_flipkart_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10220736100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters \"abc\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepDefination.loginStep.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5080022000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "com.stepDefination.loginStep.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62007500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on same Login page",
+            "match": {
+              "location": "com.stepDefination.loginStep.user_is_on_same_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-27T14:39:22.968Z",
+        "line": 26,
+        "name": "Negative login scenario",
+        "description": "",
+        "id": "login-to-filpkart-application;negative-login-scenario;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 379002100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDefination.loginStep.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8611023600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User is on flipkart login page",
+            "match": {
+              "location": "com.stepDefination.loginStep.user_is_on_flipkart_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10259742600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters \"\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepDefination.loginStep.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5101864900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "com.stepDefination.loginStep.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80503800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on same Login page",
+            "match": {
+              "location": "com.stepDefination.loginStep.user_is_on_same_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      }
+    ],
+    "name": "Login to Filpkart application",
+    "description": "",
+    "id": "login-to-filpkart-application",
+    "keyword": "Feature",
+    "uri": "file:features/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
